@@ -1,3 +1,3 @@
 After ('@click')do
-    click_link 
+    find('span[class="suitepicon suitepicon-action-user-small"]').click
 end
